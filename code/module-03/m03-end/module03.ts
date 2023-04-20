@@ -38,5 +38,5 @@ function calculateConventionalLoanPayment(loanTerms: ConventionalLoan): string {
 let interestOnlyPayment = calculateInterestOnlyLoanPayment({principle: 30000, interestRate: 5});
 let conventionalPayment = calculateConventionalLoanPayment({principle: 30000, interestRate: 5, months: 180});
 
-console.log(interestOnlyPayment);     //* Returns "The interest only loan payment is 125.00" 
-console.log(conventionalPayment);     //* Returns "The conventional loan payment is 237.24" 
+console.log(interestOnlyPayment);     //* Returns "The interest only loan payment is 125.00"
+console.log(conventionalPayment);     //* Returns "The conventional loan payment is 237.24"
